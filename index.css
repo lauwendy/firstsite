@@ -1,0 +1,26 @@
+body {
+  padding: 0 65px;
+}
+
+h1 {
+  font-size: 52px;
+  text-align: center;
+}
+
+@media only screen and (min-width: 751px) {
+  .food-list {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(30%, 1fr));
+    grid-gap: 35px;
+  }
+}
+
+@media only screen and (max-width: 750px) {
+  div.example {
+    font-size: 30px;
+  }
+}
+
+.food-entry > img {
+  width: 100%;
+}
